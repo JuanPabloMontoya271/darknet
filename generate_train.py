@@ -15,9 +15,9 @@ with open("train.txt", "w") as outfile:
         outfile.write(image)
         outfile.write("\n")
     outfile.close()
-with open("test.txt", "w") as outfile:
-    for image in test_files:
-        outfile.write(image)
-        outfile.write("\n")
-    outfile.close()    
+# with open("test.txt", "w") as outfile:
+#     for image in test_files:
+#         outfile.write(image)
+#         outfile.write("\n")
+#     outfile.close()    
 os.chdir("..")
